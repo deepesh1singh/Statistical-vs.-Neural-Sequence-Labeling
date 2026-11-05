@@ -1,4 +1,4 @@
-# Project 2: Statistical vs. Neural Sequence Labeling
+# Statistical vs. Neural Sequence Labeling
 
 Part-of-speech tagging on **UD English EWT** with three systems:
 
