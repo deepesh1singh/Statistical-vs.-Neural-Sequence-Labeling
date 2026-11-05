@@ -1,0 +1,33 @@
+{
+  "dataset": "ewt",
+  "task": "pos",
+  "lambda": 0.1,
+  "suffix_max_freq": 10,
+  "suffix_tuning_dev": {},
+  "lower_mode": "smart",
+  "lower_tuning_dev": {
+    "off": 0.9097343725147129,
+    "smart": 0.9124781294735168,
+    "all": 0.9124383648799109
+  },
+  "fit_seconds": 0.3553016185760498,
+  "n_train": 12544,
+  "n_dev": 2001,
+  "n_test": 2077,
+  "dev": {
+    "accuracy": 0.9124781294735168,
+    "n_tokens": 25148,
+    "oov_rate": 0.08298870685541594,
+    "token_acc_known": 0.9304887038723386,
+    "token_acc_oov": 0.7134643028270244,
+    "oov_resolved_by_lowercase": 0.10158121705797796
+  },
+  "test": {
+    "accuracy": 0.9174703116282776,
+    "n_tokens": 25094,
+    "oov_rate": 0.09133657447995537,
+    "token_acc_known": 0.9364967985264451,
+    "token_acc_oov": 0.7281849912739965,
+    "oov_resolved_by_lowercase": 0.11518324607329843
+  }
+}
